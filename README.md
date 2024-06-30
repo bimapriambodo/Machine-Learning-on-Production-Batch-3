@@ -56,15 +56,11 @@ TF-IDF is used to convert text into feature vectors that can be used by machine 
 
 - **Inverse Document Frequency (IDF)**: Measures how important a word is in the entire collection of documents. The formula is:
 
-  \[
-  \text{IDF}(t, D) = \log \left( \frac{\text{Total number of documents}}{\text{Number of documents containing t}} \right)
-  \]
+  $$\text{IDF}(t, D) = \log \left( \frac{\text{Total number of documents}}{\text{Number of documents containing t}} \right)$$
 
 - **TF-IDF**: Combines both measures to assign a weight to words, so that words that frequently appear in a document but are rare in the collection get a higher weight. The formula is:
 
-  \[
-  \text{TF-IDF}(t, d, D) = \text{TF}(t, d) \times \text{IDF}(t, D)
-  \]
+  $$\text{TF-IDF}(t, d, D) = \text{TF}(t, d) \times \text{IDF}(t, D)$$
 
 
 This process involves:
