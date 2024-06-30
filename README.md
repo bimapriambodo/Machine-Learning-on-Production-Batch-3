@@ -50,9 +50,7 @@ TF-IDF is used to convert text into feature vectors that can be used by machine 
 
 - **Term Frequency (TF)**: Measures how frequently a word appears in a document. The formula is:
 
-  $$
-  \text{TF}(t, d) = \frac{\text{Number of occurrences of t in d}}{\text{Total number of words in d}}
-  $$
+  $$\text{TF}(t, d) = \frac{\text{Number of occurrences of t in d}}{\text{Total number of words in d}}$$
 
 - **Inverse Document Frequency (IDF)**: Measures how important a word is in the entire collection of documents. The formula is:
 
